@@ -2,6 +2,7 @@ require File.expand_path("../rsync/version", __FILE__)
 require File.expand_path("../rsync/scm/base", __FILE__)
 require File.expand_path("../rsync/scm/git", __FILE__)
 require File.expand_path("../rsync/scm/svn", __FILE__)
+require File.expand_path("../rsync/scm/none", __FILE__)
 
 # NOTE: Please don't depend on tasks without a description (`desc`) as they
 # might change between minor or patch version releases. They make up the
