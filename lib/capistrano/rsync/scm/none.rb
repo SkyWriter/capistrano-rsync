@@ -1,5 +1,3 @@
-require "pry"
-
 module Capistrano
   module Rsync
     module Scm
